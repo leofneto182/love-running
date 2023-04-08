@@ -225,8 +225,8 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 3%;
-    padding: 3%;
+    margin: 1%;
+    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -331,12 +331,13 @@ footer {
 /* sign up form */
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 20 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 80px;
+    top: 210px;
     padding: 30px;
 }
 
@@ -373,4 +374,32 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+#signup-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/running-signup-1200x1200.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 75px;
+}
+
+.social-networks-sign {
+    text-align: center;
+}
+
+.social-networks-sign li {
+    display: inline;
+}
+
+.social-networks-sign i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #3a3a3a;
+    position: relative;
+    top: 700px;
 }
