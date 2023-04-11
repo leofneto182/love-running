@@ -379,7 +379,7 @@ footer {
 #signup-image {
     height: 600px;
     width: 100%;
-    background: url('../images/running-signup-1200x1200.avif');
+    background: url('../assets/images/formbg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
